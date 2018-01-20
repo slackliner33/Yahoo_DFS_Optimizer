@@ -46,6 +46,68 @@ None
 None, no security concerns
 
 
+---------------------------------
+
+                   Feature                 Description                                                                         
+    Scrape Yahoo!'s salary data      The ability to import the salaries for each player in the daily NBA contest 
+
+    Import the user's projections    Will allow the user to upload his scoring projections for each player               
+
+    Run the Optimizer 5 lineups      Binary integer program that takes inputs and generates 5 top line-ups           
+
+
+---------------------------------
+
+    Priority     Status                   Value
+      1        Not started          Saves the user from having to manually look for and type them in him/herself
+
+      2        Not started          Allows the user to have control over the projections that the model will use to create top line-ups
+
+      3        Not started          Saves the user from having to guess & check or use Solver to make 5 optimal line-ups 
+
+
+--------------------------------
+
+                User.input                                                      Output  
+    Potential option for user to pick which slate of NBA games       A list of players and their daily Yahoo salaries
+
+    Must upload projections in a .txt, .csv, or .xlsx file (TBD)     A list of the players and their score projections
+
+    None, except the user clicking "RUN" to start the optimizer      A list of the 5 top line-ups for the NBA contest
+
+   ---------------------------
+   
+                                             Use.of.output
+
+    users can examine this output as they could on the site, but it will be sortable this way and can help them build their projections
+
+    The user can verify they made the right projections for the right players, and can manually adjust them in the tool if need be
+    
+    Allows the user to examine the five best line-ups and take the one(s) they like and input them into Yahoo Daily Contests to win $
+    
+    
+   -----------------------------
+   
+      Time                             Now.or.update
+      
+      Yes                 Need it now for the optimizer to function
+ 
+      Yes                 Need it now for the optimizer to function
+ 
+      Yes                 Need it now for the optimizer to function
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
