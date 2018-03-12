@@ -6,14 +6,14 @@ devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer")
 
 (OR RUN:
 
-devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer",quick=TRUE)
+devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer", quick=TRUE)
 
-if any troubles persist with the install)
+IF ANY TROUBLES ARISE WITH THE INSTALLATION)
 
 
 THE PACKAGE IS SIMPLE...
 
-ONLY 2 FUNCTIONS NEED TO BE RUN (IN ORDER) TO REACH END GOAL
+ONLY 2 FUNCTIONS NEED TO BE RUN (IN ORDER) TO REACH END GOAL:
 
 1. scrapeDFS()
 
