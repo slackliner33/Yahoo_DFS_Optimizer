@@ -3,7 +3,7 @@
 #' This function generates 10 best lineups based off the Rotowire NBA DFS
 #' predictions for the given day of NBA games
 #' @param Defaults to TRUE
-#' @keywords
+#' @keywords optimize
 #' @export
 #' @examples
 #' generateLineups()

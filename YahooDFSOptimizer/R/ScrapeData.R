@@ -3,7 +3,7 @@
 #' This function allows the user to scrape the date from RotoWire and
 #' import it nicely into an R data frame
 #' @param Defaults to TRUE
-#' @keywords
+#' @keywords scrape
 #' @export
 #' @examples
 #' scrapeDFS()
