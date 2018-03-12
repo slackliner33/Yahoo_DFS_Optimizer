@@ -10,7 +10,9 @@ Description: This tool will allow the user to build optimal NBA line-ups for
   RotoWire's site and then generate five top line-ups using the site's predictions. 
   This capability will save the user subscription money as many, if not all, 
   DFS sites charge for these insights.
-Depends: R (>= 3.4.2) 
+Depends: R (>= 3.4.2),
+        rvest
+        lpSolve
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
