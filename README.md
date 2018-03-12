@@ -1,16 +1,25 @@
 ## NOTE - 11 MAR 18
 
 TO INSTALL MY PACKAGE:
+
 devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer")
+
 OR RUN:
+
 devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer",quick=TRUE)
+
 if any troubles persist with the install
 
 THE PACKAGE IS SIMPLE...
+
 ONLY 2 FUNCTIONS NEED TO BE RUN (IN ORDER) TO REACH END GOAL
+
 1. scrapeDFS()
+
 -No arguments needed, produces data frame of scraped table (reduced) data
+
 2. generateLineups()
+
 - Also no arguments, produces data frame with 10 best (optimal) lineups for given NBA daily slate of games
 
 While the functionality is simple, the 2 functions are running quite a bit of code to scrape player data, clean and sort it, prep a binary IP, solve it 10 times, and then produce user-friendly results.
