@@ -1,9 +1,21 @@
 Package: YahooDFSOptimizer
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.2)
+Type: Package
+Title: Tool to Generate Optimal Line-ups for Yahoo DFS NBA Contests
+Version: 0.1.0
+Date: 2018-11-03
+Author: Jake Johnson
+Maintainer: Jake Johnson <jakejohnson541@yahoo.com>
+Description: This tool will allow the user to build optimal NBA line-ups for Yahoo’s Daily Fantasy contests. This tool will import data (scrape) from RotoWire's site and then generate five top line-ups using the site's predictions. This capability will save the user subscription money as many, if not all, DFS sites charge for these insights.
+Depends: R (>= 3.4.2) 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+    rvest,
+    magrittr,
+    lpSolve
+RoxygenNote: 6.0.1.9000
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
