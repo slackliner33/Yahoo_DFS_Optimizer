@@ -11,7 +11,7 @@ Description: This tool will allow the user to build optimal NBA line-ups for
   This capability will save the user subscription money as many, if not all, 
   DFS sites charge for these insights.
 Depends: R (>= 3.0.0),
-        rvest (>= 0.3.2)
+        rvest (>= 0.3.2),
         lpSolve (>= 5.6.13)
 License: GPL-2
 Encoding: UTF-8
