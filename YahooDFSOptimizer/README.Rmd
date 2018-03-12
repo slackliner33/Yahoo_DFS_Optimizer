@@ -1,0 +1,21 @@
+---
+title: "README"
+author: "Jake Johnson"
+date: "March 12, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Package description / Intent
+
+This package works by scraping data off of the website: https://www.rotowire.com/daily/NBA/optimizer.php?site=Yahoo&sport=NBA
+This website is one of few, if not the only, free Daily Fantasy Sports (DFS)
+site that publishes free fantasy scoring predictions. The focus of this package is to take these predictions (for Yahoo NBA DFS contests) and generate the ten best (optimal) line-ups for the given day's contests.
+While it can be seen that this website provides its own easy Optimal Lineup feature, this package offers more to the user because it is able to generate more than one optimal, or top lineup. This is a highly useful feature for DFS players as the ability to see the top lineups provides insights into which players are common in the best lineups. For example, it is possible that a certain player is not featured in the optimal lineup, but he may be present in the second best to tenth best lineups. Hence, a DFS user would have missed this insight by relying solely on the free Rotowire website optimizer and may have missed out on a winning component of building the best lineup for the day.
+Thus, this package aims to provide a free way for DFS players to gain insights into the best NBA players to enter into Yahoos Daily Fantasy contests. While other sites provide similar info, i.e. k-best line-ups, they often charge 20-50 dollars a month. Consequently, this package is a great tool for the casual DFS player who wants to take free NBA fantasy predictions and generate the top ten lineups (via a Binary IP solved in R) to help him/her create winning lineups in Yahoo contests.
+In addition, this package was a practice for the developer in using R to scrape data and perform (binary integer) linear program optimization.
+
+
