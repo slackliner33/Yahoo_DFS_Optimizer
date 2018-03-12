@@ -3,11 +3,15 @@ Type: Package
 Title: Tool to Generate Optimal Line-ups for Yahoo DFS NBA Contests
 Version: 0.1.0
 Date: 2018-11-03
-Author: Jake Johnson
-Maintainer: Jake Johnson <jakejohnson541@yahoo.com>
-Description: This tool will allow the user to build optimal NBA line-ups for Yahoo’s Daily Fantasy contests. This tool will import data (scrape) from RotoWire's site and then generate five top line-ups using the site's predictions. This capability will save the user subscription money as many, if not all, DFS sites charge for these insights.
+Authors@R: person("Jake", "Johnson", email = "jakejohnson541@yahoo.com",
+  role = c("aut", "cre"))
+Description: This tool will allow the user to build optimal NBA line-ups for
+  Yahoo Daily Fantasy contests. This tool will import data (scrape) from 
+  RotoWire's site and then generate five top line-ups using the site's predictions. 
+  This capability will save the user subscription money as many, if not all, 
+  DFS sites charge for these insights.
 Depends: R (>= 3.4.2) 
-License: What license is it under?
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports:
