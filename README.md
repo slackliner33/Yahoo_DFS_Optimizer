@@ -4,11 +4,12 @@ TO INSTALL MY PACKAGE:
 
 devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer")
 
-OR RUN:
+(OR RUN:
 
 devtools::install_github("slackliner33/Yahoo_DFS_Optimizer/YahooDFSOptimizer",quick=TRUE)
 
-if any troubles persist with the install
+if any troubles persist with the install)
+
 
 THE PACKAGE IS SIMPLE...
 
@@ -16,7 +17,7 @@ ONLY 2 FUNCTIONS NEED TO BE RUN (IN ORDER) TO REACH END GOAL
 
 1. scrapeDFS()
 
--No arguments needed, produces data frame of scraped table (reduced) data
+- No arguments needed, produces data frame of scraped table (reduced) data
 
 2. generateLineups()
 
