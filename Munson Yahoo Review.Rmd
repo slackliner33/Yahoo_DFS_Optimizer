@@ -1,0 +1,50 @@
+---
+title: "Munson Yahoo Review"
+author: "ELM"
+date: "3/12/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Accuracy
+
+* Are the results accurate?
+
+  + The results are computed exceptionally fast and are displayed in an easy to understand and interpret manner.
+  + As far as accuracy, I am not sure of the guiding assumptions that were used within the analysis.
+  + Looking briefly under the hood of the `YahooDFSOptimizer::generateLineups()` function I can see that an LP is used, but I am not sure as to what other constraints were used.
+  + I am not into the sports betting scene, so I am not sure how accurate or believable the results are.  But I do recognizes some of the resulting names, so I would suspect that for the coded constraints the package functions properly.
+
+* Is it clear how the results were computed?
+
+  + I see that an LP is used but I am not sure what constraints are being considered.
+  + The `?YahooDFSOptimizer::generateLineups()` description does not provide any additional information as to how the function is working.
+  + Additional information about the constraints and allowing the user to adjust the objective function would be nice additions.
+
+# Compilation
+
+* Did the analytic work?
+
+  + The entire process worked very easily and quickly.
+
+* Were error encountered when executing code according to the documentation?
+
+  + No errors or complications with the install, accessing the Yahoo API, or in the running of the generated lineups were experienced.
+
+# Ease of Use
+
+* Is it clear how to use the analytic?
+
+  + The README was very easy to understand and described what was required to execute both `YahooDFSOptimizer::scrapeDFS()` and `YahooDFSOptimizer::generateLineups()` without any issues.
+ 
+* Are the visualization interpretable?
+
+  + The resulting output dataframe was well constructed and provided the user a very easy to understand recommendation.
+  + Additionally the dataframe also calculated a projected number of points and expected cost.
+ 
+# Overall
+
+The package performed very well.  Installed easily, and was very easy to use.  I would like to see a description of the LPs constraints and the ability to adjust those constraints.  However for a novice user that wants a quick recommendation this package defiantly provides that.  Overall I feel the package is Outstanding 48/50.
