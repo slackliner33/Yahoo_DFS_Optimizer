@@ -47,4 +47,4 @@ knitr::opts_chunk$set(echo = TRUE)
  
 # Overall
 
-The package performed very well.  Installed easily, and was very easy to use.  I would like to see a description of the LPs constraints and the ability to adjust those constraints.  However for a novice user that wants a quick recommendation this package defiantly provides that.  Overall I feel the package is Excellent.
+The package performed very well.  Installed easily, and was very easy to use.  I would like to see a description of the LPs constraints and the ability to adjust those constraints.  However for a novice user that wants a quick recommendation this package defiantly provides that.  Overall I feel the package is Outstanding 48/50.
