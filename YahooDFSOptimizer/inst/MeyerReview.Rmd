@@ -1,0 +1,27 @@
+---
+title: 'YahooDFSOptimizer Package Review'
+author: "Emily Meyer"
+date: "March 12, 2018"
+output: html_document
+---
+  
+##Overview
+
+The YahooDFSOptimizer package is a free, easy way to scrape data from the rotowire value report and generate the top 10 optimal lineups.
+  
+##Accuracy
+The data from the scrapeDFS function match the data on the Rotowire website. Additionally, the first optimal lineup matches the optimal lineup on the Rotowire website.
+  
+It is clear that the scrapeDFS function is scraping from Rotowire, but maybe add that it is scraping the value report.You may want to put some of the information from the readme on Github into the package help file, so users can tell that the generateLineups function uses a binary IP to compute the lineups.
+  
+##Compilation
+
+There were no problems running or installing the package.
+  
+##Ease of Use
+
+The functions are straight forward. I would recommend putting the last part of your Github readme note in the overall package documentation, because it was helpful.
+
+#Overall Score
+50 pts
+  
